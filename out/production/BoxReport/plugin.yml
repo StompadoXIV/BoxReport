@@ -1,0 +1,9 @@
+name: BoxReport
+version: 1.0.0
+author: Stompado
+main: me.report.BoxReport
+commands:
+  report:
+    aliases: [reportar]
+  reports:
+    aliases: [reportes]

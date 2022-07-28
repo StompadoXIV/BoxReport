@@ -1,0 +1,57 @@
+#################################################
+#                    BoxReport                  #
+#               Plugin by: Stompado             #
+#            Plugin exclusivo da BoxStore       #
+#               © Copyright BoxStore            #
+#################################################
+
+#Prefixo das mensagens
+Prefixo:
+  Ativar: true
+  Prefixo: '&e&lREPORT &8»'
+
+#Mensagens gerais
+Mensagens:
+  Jogadores:
+    ComoReportar: '&cUtilize o comando da seguinte forma: /reportar (jogador) (motivo).'
+    JogadorNaoEncontrado: '&cEsse jogador não existe ou não está no servidor.'
+    ReportarASiMesmo: '&cVocê não pode reportar a sí mesmo!'
+    Imune: '&cEsse jogador não pode ser reportado.'
+    EmCooldown: '&cEspere &e{tempo} &cpara reportar um novo jogador.'
+    JogadorReportado:
+      - ''
+      - '&a&lO SEU REPORTE FOI CONCLUÍDO COM SUCESSO.'
+      - ''
+      - '&7Jogador reportado: &f{reportado}'
+      - '&7Motivo: &f{motivo}'
+      - ''
+  Staffs:
+    NovoReporte:
+      - ''
+      - '&a&lUM NOVO REPORTE FOI ENVIADO!'
+      - ''
+      - '&7Jogador reportado: &f{reportado}'
+      - '&7Vitima: &f{vitima}'
+      - '&7Motivo: &f{motivo}'
+      - ''
+      - '&7Utilize &a/reportes &7para ver!'
+    ReportadoNaoEncontrado: '&cO jogador reportado não está no servidor nesse momento.'
+    TeleportadoComSucesso: '&aVocê se teleportou com sucesso até &e{reportado}&a.'
+    ReporteExcluido: '&aO reporte foi excluído com sucesso.'
+
+#Configurações gerais
+Configuracoes:
+  Cooldown: 3 #Tempo para enviar outro reporte em minutos
+
+#Como vai ficar no /reports
+Formato:
+  Reportes:
+    Titulo: '&7Autor: &e{autor}'
+    Lore:
+      - ''
+      - '&7Acusado: &f{acusado}'
+      - '&7Motivo: &f{motivo}'
+      - '&7Data: &f{data}'
+      - ''
+      - '&8☰ &aClique com o botão direito para &eteleportar &aaté o jogador'
+      - '&8☰ &aClique com o botão esquerdo para &cexcluir &ao reporte'

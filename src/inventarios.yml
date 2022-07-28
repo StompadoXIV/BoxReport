@@ -1,0 +1,30 @@
+Inventarios:
+  Reportes:
+    Nome: '&7Reportes'
+    Items:
+      ProximaPagina:
+        Nome: '&aPróxima página'
+        Material: 'ARROW:0'
+        Skull:
+          Ativar: true
+          Skull-URL: 'http://textures.minecraft.net/texture/aab95a8751aeaa3c671a8e90b83de76a0204f1be65752ac31be2f98feb64bf7f'
+        Lore:
+          - ''
+          - '&f➢ &7Clique aqui para'
+          - '&f➢ &7ir para a página &f{pagina}'
+          - '&f➢ &7dos &ereportes'
+          - ''
+          - '&8☰ &aClique aqui para prosseguir'
+      PaginaAnterior:
+        Nome: '&cPágina anterior'
+        Material: 'ARROW:0'
+        Skull:
+          Ativar: true
+          Skull-URL: 'http://textures.minecraft.net/texture/1c5a8aa8a4c03600a2b5a4eb6beb51d590260b095ee1cdaa976b09bdfe5661c6'
+        Lore:
+          - ''
+          - '&f➢ &7Clique aqui para'
+          - '&f➢ &7ir para a pagina anterior'
+          - '&f➢ &7dos &ereportes'
+          - ''
+          - '&8☰ &aClique aqui para voltar a pagina'
